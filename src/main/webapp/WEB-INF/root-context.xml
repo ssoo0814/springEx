@@ -34,6 +34,7 @@
         <property name="mapperLocations" value="classpath:/mappers/**/*.xml"></property>
     </bean>
 
-    <context:component-scan base-package="com.multicampus.springex"/>
-    <mybatis:scan base-package="com.multicampus.springex.mapper"/>
+    <context:component-scan base-package="com.multicampus.springex.config"/>
+    <context:component-scan base-package="com.multicampus.springex.service"/>
+    <mybatis:scan base-package="com.multicampus.springex.mapper"></mybatis:scan>
 </beans>

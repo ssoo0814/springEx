@@ -5,9 +5,8 @@
     <title>JSP - Hello World</title>
 </head>
 <body>
-<h1><%= "Hello World!" %>
+<h1 align="center">
+<a href="/todo/register">Todo 글쓰러 가기!</a>
 </h1>
-<br/>
-<a href="hello-servlet">Hello Servlet</a>
 </body>
 </html>

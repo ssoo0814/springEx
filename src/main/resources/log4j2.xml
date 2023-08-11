@@ -9,9 +9,15 @@
         <logger name="org.springframework" level="INFO" additivity="false">
             <appender-ref ref="console"/>
         </logger>
+
         <logger name="org.multicampus" level="INFO" additivity="false">
             <appender-ref ref="console"/>
         </logger>
+
+        <logger name="org.multicampus.springex.mapper" level="TRACE" additivity="false">
+            <appender-ref ref="console"/>
+        </logger>
+
         <Root level="info" additivity="false">
             <AppenderRef ref="console"/>
         </Root>

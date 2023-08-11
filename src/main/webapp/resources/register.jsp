@@ -1,4 +1,3 @@
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html; UTF-8" pageEncoding="UTF-8" %>
 <!doctype html>
 <html lang="en">
@@ -67,13 +66,6 @@
                             </div>
 
                         </form>
-                        <script>
-                            const serverValidResult = {}
-                            <c:forEach items="${errors}" var="error">
-                            serverValidResult['${error.getField()}'] ='${error.defaultMessage}'
-                            </c:forEach>
-                            console.log(serverValidResult)
-                        </script>
                     </div>
                 </div>
             </div>
@@ -84,7 +76,7 @@
 
         <div class="row   fixed-bottom" style="z-index: -100">
             <footer class="py-1 my-1 ">
-                <p class="text-center text-muted">multicampus_backend14</p>
+                <p class="text-center text-muted">Footer</p>
             </footer>
         </div>
 

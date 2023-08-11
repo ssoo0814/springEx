@@ -22,7 +22,7 @@
         <property name="formatters">
             <set>
                 <bean class="com.multicampus.springex.controller.formatter.LocalDateFormatter"/>
-                <!--<bean class="com.multicampus.springex.controller.formatter.CheckboxFormatter"/>-->
+                <bean class="com.multicampus.springex.controller.formatter.CheckboxFormatter"/>
             </set>
         </property>
     </bean>
